@@ -24,6 +24,7 @@
 		FAE99973294CFDA50000FDCA /* 113489-walking.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE99972294CFDA50000FDCA /* 113489-walking.json */; };
 		FAE99975294CFDC30000FDCA /* 92014-route-maps.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE99974294CFDC30000FDCA /* 92014-route-maps.json */; };
 		FAE99977294CFE350000FDCA /* 74810-phone-animation-video-with-location-bar.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE99976294CFE350000FDCA /* 74810-phone-animation-video-with-location-bar.json */; };
+		FAE99979294D06D00000FDCA /* 91285-sparkles-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE99978294D06D00000FDCA /* 91285-sparkles-animation.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		FAE99972294CFDA50000FDCA /* 113489-walking.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "113489-walking.json"; sourceTree = "<group>"; };
 		FAE99974294CFDC30000FDCA /* 92014-route-maps.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "92014-route-maps.json"; sourceTree = "<group>"; };
 		FAE99976294CFE350000FDCA /* 74810-phone-animation-video-with-location-bar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "74810-phone-animation-video-with-location-bar.json"; sourceTree = "<group>"; };
+		FAE99978294D06D00000FDCA /* 91285-sparkles-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "91285-sparkles-animation.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		394499D9294C844D009819DA /* koubk */ = {
 			isa = PBXGroup;
 			children = (
+				FAE9996D294CFBB00000FDCA /* Lotties */,
 				FAE99960294CE8A80000FDCA /* Onboarding */,
 				394499F2294C846D009819DA /* Utils */,
 				394499F1294C8467009819DA /* Controllers */,
@@ -94,8 +97,8 @@
 				394499EF294C845A009819DA /* View */,
 				394499EE294C8455009819DA /* Model */,
 				394499DA294C844D009819DA /* AppDelegate.swift */,
-				394499DC294C844D009819DA /* SceneDelegate.swift */,
 				394499E0294C844D009819DA /* Main.storyboard */,
+				394499DC294C844D009819DA /* SceneDelegate.swift */,
 				394499E3294C844F009819DA /* Assets.xcassets */,
 				394499E5294C844F009819DA /* LaunchScreen.storyboard */,
 				394499E8294C844F009819DA /* Info.plist */,
@@ -154,7 +157,6 @@
 		FAE99960294CE8A80000FDCA /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				FAE9996D294CFBB00000FDCA /* Lotties */,
 				FAE99961294CE8E30000FDCA /* OnboardingViewController.swift */,
 				FAE99963294CE9110000FDCA /* OnBoardingContainerView.swift */,
 			);
@@ -167,6 +169,7 @@
 				FAE99972294CFDA50000FDCA /* 113489-walking.json */,
 				FAE99974294CFDC30000FDCA /* 92014-route-maps.json */,
 				FAE99976294CFE350000FDCA /* 74810-phone-animation-video-with-location-bar.json */,
+				FAE99978294D06D00000FDCA /* 91285-sparkles-animation.json */,
 			);
 			path = Lotties;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			files = (
 				394499E7294C844F009819DA /* LaunchScreen.storyboard in Resources */,
 				FAE99977294CFE350000FDCA /* 74810-phone-animation-video-with-location-bar.json in Resources */,
+				FAE99979294D06D00000FDCA /* 91285-sparkles-animation.json in Resources */,
 				394499E4294C844F009819DA /* Assets.xcassets in Resources */,
 				FAE99975294CFDC30000FDCA /* 92014-route-maps.json in Resources */,
 				394499E2294C844D009819DA /* Main.storyboard in Resources */,
