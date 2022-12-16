@@ -25,9 +25,9 @@ final class OnboardingContainerViewController: UIViewController {
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         self.pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
         
-        let page1 = OnboardingViewCotrollerr(anmimationJson: "74810-phone-animation-video-with-location-bar", titleText: "Bankey is bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla bla bla bla v bla")
-        let page2 = OnboardingViewCotrollerr(anmimationJson: "92014-route-maps", titleText: "World is bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla bla bla bla v bla")
-        let page3 = OnboardingViewCotrollerr(anmimationJson: "113489-walking", titleText: "Bankey is likes u")
+        let page1 = OnboardingViewCotrollerr(gifname: "74810-phone-animation-video-with-location-bar", titleText: "Bankey is bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla bla bla bla v bla")
+        let page2 = OnboardingViewCotrollerr(gifname: "92014-route-maps", titleText: "World is bla bla bla blabla bla bla bla bla bla bla bla bla bla bla bla bla bla bla v bla")
+        let page3 = OnboardingViewCotrollerr(gifname: "113489-walking", titleText: "Bankey is likes u")
         
         pages.append(page1)
         pages.append(page2)

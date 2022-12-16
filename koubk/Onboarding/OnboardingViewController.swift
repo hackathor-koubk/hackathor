@@ -7,16 +7,17 @@
 
 import Foundation
 import UIKit
-import Lottie
+
 
 
 class OnboardingViewCotrollerr: UIViewController {
     
     let stackView = UIStackView()
-    let animationView = LottieAnimationView()
+    let imageview = UIImageView()
+   // let imageview = UIImageView()
     let label = UILabel()
     
-    let anmimationJson: String
+    let gifname: String
     let titleText: String
     
     override func viewDidLoad() {
@@ -25,8 +26,8 @@ class OnboardingViewCotrollerr: UIViewController {
         layout()
     }
 
-    init(anmimationJson: String, titleText: String) {
-        self.anmimationJson = anmimationJson
+    init(gifname:String, titleText: String){
+        self.gifname = gifname
         self.titleText = titleText
         
         super.init(nibName: nil, bundle: nil)
@@ -47,12 +48,10 @@ extension OnboardingViewCotrollerr {
       //  stackView.distribution = .equalCentering
         stackView.axis = .vertical
         
-        animationView.translatesAutoresizingMaskIntoConstraints = false
-        animationView.contentMode = .scaleAspectFit
-        animationView.animation = LottieAnimation.named(anmimationJson)
+        imageview.translatesAutoresizingMaskIntoConstraints = false
+        imageview.contentMode = .scaleAspectFit
+        imageview.image = UIImage.gifImageWithName(gifname)
         
-        animationView.loopMode = .loop
-        animationView.play()
 
         
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -68,7 +67,7 @@ extension OnboardingViewCotrollerr {
     }
     
     func layout() {
-        stackView.addArrangedSubview(animationView)
+        stackView.addArrangedSubview(imageview)
         stackView.addArrangedSubview(label)
         view.addSubview(stackView)
         
