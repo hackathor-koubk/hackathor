@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210D9040294D27E600F6CF08 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210D903F294D27E600F6CF08 /* VerificationViewController.swift */; };
 		21E6AEE5294C859A00A6819A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E6AEE4294C859A00A6819A /* String+Extension.swift */; };
 		394499DB294C844D009819DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394499DA294C844D009819DA /* AppDelegate.swift */; };
 		394499DD294C844D009819DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394499DC294C844D009819DA /* SceneDelegate.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		210D903F294D27E600F6CF08 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
 		21E6AEE4294C859A00A6819A /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		394499D7294C844D009819DA /* koubk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = koubk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		394499DA294C844D009819DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				394499F6294C84B5009819DA /* LoginController.swift */,
+				210D903F294D27E600F6CF08 /* VerificationViewController.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				FAE99964294CE9110000FDCA /* OnBoardingContainerView.swift in Sources */,
 				394499F4294C8483009819DA /* Extentions.swift in Sources */,
 				394499FB294C84DA009819DA /* view.swift in Sources */,
+				210D9040294D27E600F6CF08 /* VerificationViewController.swift in Sources */,
 				394499F9294C84D2009819DA /* viewmodel.swift in Sources */,
 				394499DB294C844D009819DA /* AppDelegate.swift in Sources */,
 				394499DD294C844D009819DA /* SceneDelegate.swift in Sources */,
