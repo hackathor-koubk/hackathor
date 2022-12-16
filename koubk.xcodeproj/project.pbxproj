@@ -17,14 +17,16 @@
 		394499F7294C84B5009819DA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394499F6294C84B5009819DA /* LoginController.swift */; };
 		394499F9294C84D2009819DA /* viewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394499F8294C84D2009819DA /* viewmodel.swift */; };
 		394499FB294C84DA009819DA /* view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394499FA294C84DA009819DA /* view.swift */; };
-		394499FD294C84E2009819DA /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394499FC294C84E2009819DA /* model.swift */; };
+		394499FD294C84E2009819DA /* CityAdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394499FC294C84E2009819DA /* CityAdviceModel.swift */; };
+		FA1CCCAB294D1FC3009287D3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CCCAA294D1FC3009287D3 /* NetworkManager.swift */; };
+		FA1CCCAD294D26CC009287D3 /* PresentingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CCCAC294D26CC009287D3 /* PresentingViewModel.swift */; };
+		FA1CCCAF294D26EA009287D3 /* PresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CCCAE294D26EA009287D3 /* PresentingViewController.swift */; };
+		FA1DE9B8294D348A000CA6E0 /* 113489-walking.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA1DE9B5294D348A000CA6E0 /* 113489-walking.gif */; };
+		FA1DE9B9294D348A000CA6E0 /* 74810-phone-animation-video-with-location-bar.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA1DE9B6294D348A000CA6E0 /* 74810-phone-animation-video-with-location-bar.gif */; };
+		FA1DE9BA294D348A000CA6E0 /* 92014-route-maps.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA1DE9B7294D348A000CA6E0 /* 92014-route-maps.gif */; };
+		FA1DE9BC294D349A000CA6E0 /* GifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DE9BB294D349A000CA6E0 /* GifLoader.swift */; };
 		FAE99962294CE8E30000FDCA /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE99961294CE8E30000FDCA /* OnboardingViewController.swift */; };
 		FAE99964294CE9110000FDCA /* OnBoardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE99963294CE9110000FDCA /* OnBoardingContainerView.swift */; };
-		FAE9996C294CF4BB0000FDCA /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FAE9996B294CF4BB0000FDCA /* Lottie */; };
-		FAE99973294CFDA50000FDCA /* 113489-walking.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE99972294CFDA50000FDCA /* 113489-walking.json */; };
-		FAE99975294CFDC30000FDCA /* 92014-route-maps.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE99974294CFDC30000FDCA /* 92014-route-maps.json */; };
-		FAE99977294CFE350000FDCA /* 74810-phone-animation-video-with-location-bar.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE99976294CFE350000FDCA /* 74810-phone-animation-video-with-location-bar.json */; };
-		FAE99979294D06D00000FDCA /* 91285-sparkles-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE99978294D06D00000FDCA /* 91285-sparkles-animation.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,13 +42,16 @@
 		394499F6294C84B5009819DA /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		394499F8294C84D2009819DA /* viewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewmodel.swift; sourceTree = "<group>"; };
 		394499FA294C84DA009819DA /* view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view.swift; sourceTree = "<group>"; };
-		394499FC294C84E2009819DA /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		394499FC294C84E2009819DA /* CityAdviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityAdviceModel.swift; sourceTree = "<group>"; };
+		FA1CCCAA294D1FC3009287D3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FA1CCCAC294D26CC009287D3 /* PresentingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingViewModel.swift; sourceTree = "<group>"; };
+		FA1CCCAE294D26EA009287D3 /* PresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingViewController.swift; sourceTree = "<group>"; };
+		FA1DE9B5294D348A000CA6E0 /* 113489-walking.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "113489-walking.gif"; sourceTree = "<group>"; };
+		FA1DE9B6294D348A000CA6E0 /* 74810-phone-animation-video-with-location-bar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "74810-phone-animation-video-with-location-bar.gif"; sourceTree = "<group>"; };
+		FA1DE9B7294D348A000CA6E0 /* 92014-route-maps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "92014-route-maps.gif"; sourceTree = "<group>"; };
+		FA1DE9BB294D349A000CA6E0 /* GifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLoader.swift; sourceTree = "<group>"; };
 		FAE99961294CE8E30000FDCA /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		FAE99963294CE9110000FDCA /* OnBoardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerView.swift; sourceTree = "<group>"; };
-		FAE99972294CFDA50000FDCA /* 113489-walking.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "113489-walking.json"; sourceTree = "<group>"; };
-		FAE99974294CFDC30000FDCA /* 92014-route-maps.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "92014-route-maps.json"; sourceTree = "<group>"; };
-		FAE99976294CFE350000FDCA /* 74810-phone-animation-video-with-location-bar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "74810-phone-animation-video-with-location-bar.json"; sourceTree = "<group>"; };
-		FAE99978294D06D00000FDCA /* 91285-sparkles-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "91285-sparkles-animation.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE9996C294CF4BB0000FDCA /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +93,8 @@
 		394499D9294C844D009819DA /* koubk */ = {
 			isa = PBXGroup;
 			children = (
-				FAE9996D294CFBB00000FDCA /* Lotties */,
+				FA1DE9B4294D3464000CA6E0 /* Gifs */,
+				FA1CCCA9294D1AF1009287D3 /* Network */,
 				FAE99960294CE8A80000FDCA /* Onboarding */,
 				394499F2294C846D009819DA /* Utils */,
 				394499F1294C8467009819DA /* Controllers */,
@@ -109,7 +114,7 @@
 		394499EE294C8455009819DA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				394499FC294C84E2009819DA /* model.swift */,
+				394499FC294C84E2009819DA /* CityAdviceModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				394499FA294C84DA009819DA /* view.swift */,
+				FA1CCCAE294D26EA009287D3 /* PresentingViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				394499F8294C84D2009819DA /* viewmodel.swift */,
+				FA1CCCAC294D26CC009287D3 /* PresentingViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -154,6 +161,25 @@
 			path = Authentication;
 			sourceTree = "<group>";
 		};
+		FA1CCCA9294D1AF1009287D3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FA1CCCAA294D1FC3009287D3 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FA1DE9B4294D3464000CA6E0 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				FA1DE9B6294D348A000CA6E0 /* 74810-phone-animation-video-with-location-bar.gif */,
+				FA1DE9B7294D348A000CA6E0 /* 92014-route-maps.gif */,
+				FA1DE9B5294D348A000CA6E0 /* 113489-walking.gif */,
+				FA1DE9BB294D349A000CA6E0 /* GifLoader.swift */,
+			);
+			path = Gifs;
+			sourceTree = "<group>";
+		};
 		FAE99960294CE8A80000FDCA /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,17 +187,6 @@
 				FAE99963294CE9110000FDCA /* OnBoardingContainerView.swift */,
 			);
 			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		FAE9996D294CFBB00000FDCA /* Lotties */ = {
-			isa = PBXGroup;
-			children = (
-				FAE99972294CFDA50000FDCA /* 113489-walking.json */,
-				FAE99974294CFDC30000FDCA /* 92014-route-maps.json */,
-				FAE99976294CFE350000FDCA /* 74810-phone-animation-video-with-location-bar.json */,
-				FAE99978294D06D00000FDCA /* 91285-sparkles-animation.json */,
-			);
-			path = Lotties;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +206,6 @@
 			);
 			name = koubk;
 			packageProductDependencies = (
-				FAE9996B294CF4BB0000FDCA /* Lottie */,
 			);
 			productName = koubk;
 			productReference = 394499D7294C844D009819DA /* koubk.app */;
@@ -222,7 +236,6 @@
 			);
 			mainGroup = 394499CE294C844D009819DA;
 			packageReferences = (
-				FAE9996A294CF4BB0000FDCA /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = 394499D8294C844D009819DA /* Products */;
 			projectDirPath = "";
@@ -238,13 +251,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1DE9BA294D348A000CA6E0 /* 92014-route-maps.gif in Resources */,
 				394499E7294C844F009819DA /* LaunchScreen.storyboard in Resources */,
-				FAE99977294CFE350000FDCA /* 74810-phone-animation-video-with-location-bar.json in Resources */,
-				FAE99979294D06D00000FDCA /* 91285-sparkles-animation.json in Resources */,
+				FA1DE9B9294D348A000CA6E0 /* 74810-phone-animation-video-with-location-bar.gif in Resources */,
 				394499E4294C844F009819DA /* Assets.xcassets in Resources */,
-				FAE99975294CFDC30000FDCA /* 92014-route-maps.json in Resources */,
+				FA1DE9B8294D348A000CA6E0 /* 113489-walking.gif in Resources */,
 				394499E2294C844D009819DA /* Main.storyboard in Resources */,
-				FAE99973294CFDA50000FDCA /* 113489-walking.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +271,16 @@
 				FAE99964294CE9110000FDCA /* OnBoardingContainerView.swift in Sources */,
 				394499F4294C8483009819DA /* Extentions.swift in Sources */,
 				394499FB294C84DA009819DA /* view.swift in Sources */,
+				FA1CCCAB294D1FC3009287D3 /* NetworkManager.swift in Sources */,
 				394499F9294C84D2009819DA /* viewmodel.swift in Sources */,
 				394499DB294C844D009819DA /* AppDelegate.swift in Sources */,
+				FA1DE9BC294D349A000CA6E0 /* GifLoader.swift in Sources */,
 				394499DD294C844D009819DA /* SceneDelegate.swift in Sources */,
 				394499F7294C84B5009819DA /* LoginController.swift in Sources */,
+				FA1CCCAF294D26EA009287D3 /* PresentingViewController.swift in Sources */,
 				FAE99962294CE8E30000FDCA /* OnboardingViewController.swift in Sources */,
-				394499FD294C84E2009819DA /* model.swift in Sources */,
+				394499FD294C84E2009819DA /* CityAdviceModel.swift in Sources */,
+				FA1CCCAD294D26CC009287D3 /* PresentingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,25 +498,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		FAE9996A294CF4BB0000FDCA /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		FAE9996B294CF4BB0000FDCA /* Lottie */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FAE9996A294CF4BB0000FDCA /* XCRemoteSwiftPackageReference "lottie-ios" */;
-			productName = Lottie;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 394499CF294C844D009819DA /* Project object */;
 }
