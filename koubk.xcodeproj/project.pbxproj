@@ -18,6 +18,8 @@
 		394499F9294C84D2009819DA /* viewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394499F8294C84D2009819DA /* viewmodel.swift */; };
 		394499FB294C84DA009819DA /* view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394499FA294C84DA009819DA /* view.swift */; };
 		394499FD294C84E2009819DA /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394499FC294C84E2009819DA /* model.swift */; };
+		394499FF294CEB74009819DA /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394499FE294CEB74009819DA /* MapController.swift */; };
+		931FBE64BCB1498BF8DA496B /* Pods_koubk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C295EB706541E87C4CF6C96A /* Pods_koubk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,10 @@
 		394499F8294C84D2009819DA /* viewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewmodel.swift; sourceTree = "<group>"; };
 		394499FA294C84DA009819DA /* view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view.swift; sourceTree = "<group>"; };
 		394499FC294C84E2009819DA /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		394499FE294CEB74009819DA /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		7CECC6091C935113C722AFF4 /* Pods-koubk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-koubk.debug.xcconfig"; path = "Target Support Files/Pods-koubk/Pods-koubk.debug.xcconfig"; sourceTree = "<group>"; };
+		C295EB706541E87C4CF6C96A /* Pods_koubk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_koubk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE095009CB51EA87378916FD /* Pods-koubk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-koubk.release.xcconfig"; path = "Target Support Files/Pods-koubk/Pods-koubk.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931FBE64BCB1498BF8DA496B /* Pods_koubk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +68,8 @@
 			children = (
 				394499D9294C844D009819DA /* koubk */,
 				394499D8294C844D009819DA /* Products */,
+				F2E56A052AF75C8D81C898B7 /* Pods */,
+				A6CB444666CF36A7729BE81E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				394499F5294C84A7009819DA /* Authentication */,
+				394499FE294CEB74009819DA /* MapController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -138,6 +148,23 @@
 			path = Authentication;
 			sourceTree = "<group>";
 		};
+		A6CB444666CF36A7729BE81E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C295EB706541E87C4CF6C96A /* Pods_koubk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2E56A052AF75C8D81C898B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CECC6091C935113C722AFF4 /* Pods-koubk.debug.xcconfig */,
+				DE095009CB51EA87378916FD /* Pods-koubk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 394499EB294C844F009819DA /* Build configuration list for PBXNativeTarget "koubk" */;
 			buildPhases = (
+				CB3166BC37C90CC6AD2A5EEA /* [CP] Check Pods Manifest.lock */,
 				394499D3294C844D009819DA /* Sources */,
 				394499D4294C844D009819DA /* Frameworks */,
 				394499D5294C844D009819DA /* Resources */,
+				919549542314E2297036F91D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +233,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		919549542314E2297036F91D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-koubk/Pods-koubk-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-koubk/Pods-koubk-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-koubk/Pods-koubk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB3166BC37C90CC6AD2A5EEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-koubk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		394499D3294C844D009819DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -216,6 +287,7 @@
 				394499DB294C844D009819DA /* AppDelegate.swift in Sources */,
 				394499DD294C844D009819DA /* SceneDelegate.swift in Sources */,
 				394499F7294C84B5009819DA /* LoginController.swift in Sources */,
+				394499FF294CEB74009819DA /* MapController.swift in Sources */,
 				394499FD294C84E2009819DA /* model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +350,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -358,6 +431,7 @@
 		};
 		394499EC294C844F009819DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CECC6091C935113C722AFF4 /* Pods-koubk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -366,6 +440,8 @@
 				DEVELOPMENT_TEAM = S36XNC4YL6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = koubk/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Uygulama konumunuzu öğrenmek istiyor";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Uygulama konumunu öğrenmek istiyor";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -386,6 +462,7 @@
 		};
 		394499ED294C844F009819DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE095009CB51EA87378916FD /* Pods-koubk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -394,6 +471,8 @@
 				DEVELOPMENT_TEAM = S36XNC4YL6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = koubk/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Uygulama konumunuzu öğrenmek istiyor";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Uygulama konumunu öğrenmek istiyor";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
