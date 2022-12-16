@@ -17,8 +17,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wBg-JY-vp1" customClass="LottieAnimationView" customModule="Lottie">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+=======
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wBg-JY-vp1">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+>>>>>>> main
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UA2-u2-npt">
                                         <rect key="frame" x="44.666666666666657" y="298.66666666666669" width="325" height="221.00000000000006"/>
@@ -164,8 +169,44 @@
             </objects>
             <point key="canvasLocation" x="-783" y="-674"/>
         </scene>
+<<<<<<< HEAD
         <!--Verification View Controller-->
         <scene sceneID="fXJ-Zz-IqA">
+=======
+<<<<<<< HEAD
+        <!--Presenting View Controller-->
+        <scene sceneID="Nav-nI-Rmy">
+            <objects>
+                <viewController id="dl5-7d-CyR" customClass="PresentingViewController" customModule="koubk" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6ue-0e-tqg">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="HKh-rr-gBN">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="teS-3A-uPa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="teS-3A-uPa" firstAttribute="trailing" secondItem="HKh-rr-gBN" secondAttribute="trailing" id="R4F-DF-ZP0"/>
+                            <constraint firstItem="HKh-rr-gBN" firstAttribute="leading" secondItem="teS-3A-uPa" secondAttribute="leading" id="Zbm-Yp-Ju1"/>
+                            <constraint firstItem="teS-3A-uPa" firstAttribute="bottom" secondItem="HKh-rr-gBN" secondAttribute="bottom" id="dSd-6a-pny"/>
+                            <constraint firstItem="HKh-rr-gBN" firstAttribute="top" secondItem="teS-3A-uPa" secondAttribute="top" id="qnk-WX-eVQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableview" destination="HKh-rr-gBN" id="6lC-8M-I32"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zqR-xB-pCJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="343" y="-673"/>
+=======
+        <!--View Controller-->
+        <scene sceneID="PyU-cP-BfY">
+>>>>>>> main
             <objects>
                 <viewController storyboardIdentifier="VerificationViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QwY-DJ-60D" customClass="VerificationViewController" customModule="koubk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Um-d6-qPY">
@@ -501,7 +542,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8t1-Jg-zrj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="-49.275362318840585" y="-192.1875"/>
+=======
+            <point key="canvasLocation" x="1051" y="4"/>
+>>>>>>> main
+>>>>>>> main
         </scene>
     </scenes>
     <resources>

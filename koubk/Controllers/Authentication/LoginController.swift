@@ -6,13 +6,17 @@
 //
 
 import UIKit
-import Lottie
+
 
 class LoginController: UIViewController {
     
     // MARK: - Properties
+<<<<<<< HEAD
     @IBOutlet weak var borderStackView: UIStackView!
     @IBOutlet weak var animView: LottieAnimationView!
+=======
+    @IBOutlet weak var animView: UIView!
+>>>>>>> main
     @IBOutlet weak var phoneNumTextFiled: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var forgetPassBtn: UIButton!
