@@ -11,17 +11,80 @@
         <!--Login Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginController" customModule="koubk" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="LoginController" customModule="koubk" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wBg-JY-vp1" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="-6" translatesAutoresizingMaskIntoConstraints="NO" id="6fi-1k-I0G">
+                                        <rect key="frame" x="48.666666666666657" y="278.33333333333337" width="296" height="178.33333333333331"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Telefon Numarası" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9xk-Uv-LaL">
+                                                <rect key="frame" x="0.0" y="0.0" width="296" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="edl-iF-JqN" userLabel="dumyView1">
+                                                <rect key="frame" x="0.0" y="28" width="296" height="50"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Şifre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dfc-IY-WyN">
+                                                <rect key="frame" x="0.0" y="72" width="296" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mal-pe-Dwt" userLabel="dumyView2">
+                                                <rect key="frame" x="0.0" y="100" width="296" height="50"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dZY-gb-G3F">
+                                                <rect key="frame" x="0.0" y="144" width="296" height="34.333333333333343"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="se5-ZT-WPc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="148" height="34.333333333333336"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Şifremi Unuttum"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qE-bT-CDe">
+                                                        <rect key="frame" x="148" y="0.0" width="148" height="34.333333333333336"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="6fi-1k-I0G" firstAttribute="centerY" secondItem="wBg-JY-vp1" secondAttribute="centerY" id="Nta-JW-gu8"/>
+                                    <constraint firstItem="6fi-1k-I0G" firstAttribute="centerX" secondItem="wBg-JY-vp1" secondAttribute="centerX" id="scM-aC-RKy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wBg-JY-vp1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HtS-0R-4HS"/>
+                            <constraint firstItem="wBg-JY-vp1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jbe-WX-iaX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wBg-JY-vp1" secondAttribute="bottom" id="iuK-nr-MjE"/>
+                            <constraint firstItem="wBg-JY-vp1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="j3H-DI-Ibl"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="animView" destination="wBg-JY-vp1" id="vq2-hR-g4z"/>
+                        <outlet property="forgetPassBtn" destination="se5-ZT-WPc" id="J5z-XU-xat"/>
+                        <outlet property="loginBtn" destination="4qE-bT-CDe" id="Ccc-W8-c5C"/>
+                        <outlet property="passwordTextField" destination="dfc-IY-WyN" id="yLh-yM-CFM"/>
+                        <outlet property="phoneNumTextFiled" destination="9xk-Uv-LaL" id="neN-rG-3rA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5" y="4"/>
+            <point key="canvasLocation" x="-738.16793893129773" y="-673.23943661971839"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PyU-cP-BfY">
