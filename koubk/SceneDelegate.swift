@@ -65,7 +65,8 @@ extension SceneDelegate: OnboardingContainerViewControllerDelegate {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
-        let initialViewController = storyboard.instantiateViewController(withIdentifier: "LoginController")
+//        let initialViewController = storyboard.instantiateViewController(withIdentifier: "LoginController")
+        let initialViewController = storyboard.instantiateViewController(withIdentifier: "PresentingViewController")
         self.window?.rootViewController = initialViewController
         self.window?.makeKeyAndVisible()
     }

@@ -10,7 +10,6 @@
 		21E6AEE5294C859A00A6819A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E6AEE4294C859A00A6819A /* String+Extension.swift */; };
 		394499DB294C844D009819DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394499DA294C844D009819DA /* AppDelegate.swift */; };
 		394499DD294C844D009819DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394499DC294C844D009819DA /* SceneDelegate.swift */; };
-		394499E2294C844D009819DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394499E0294C844D009819DA /* Main.storyboard */; };
 		394499E4294C844F009819DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394499E3294C844F009819DA /* Assets.xcassets */; };
 		394499E7294C844F009819DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394499E5294C844F009819DA /* LaunchScreen.storyboard */; };
 		394499F4294C8483009819DA /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394499F3294C8483009819DA /* Extentions.swift */; };
@@ -25,6 +24,7 @@
 		FA1DE9B9294D348A000CA6E0 /* 74810-phone-animation-video-with-location-bar.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA1DE9B6294D348A000CA6E0 /* 74810-phone-animation-video-with-location-bar.gif */; };
 		FA1DE9BA294D348A000CA6E0 /* 92014-route-maps.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA1DE9B7294D348A000CA6E0 /* 92014-route-maps.gif */; };
 		FA1DE9BC294D349A000CA6E0 /* GifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DE9BB294D349A000CA6E0 /* GifLoader.swift */; };
+		FA39C22B294D49CC00662C20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA39C22A294D49CC00662C20 /* Main.storyboard */; };
 		FAE99962294CE8E30000FDCA /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE99961294CE8E30000FDCA /* OnboardingViewController.swift */; };
 		FAE99964294CE9110000FDCA /* OnBoardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE99963294CE9110000FDCA /* OnBoardingContainerView.swift */; };
 /* End PBXBuildFile section */
@@ -34,7 +34,6 @@
 		394499D7294C844D009819DA /* koubk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = koubk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		394499DA294C844D009819DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		394499DC294C844D009819DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		394499E1294C844D009819DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		394499E3294C844F009819DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		394499E6294C844F009819DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		394499E8294C844F009819DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		FA1DE9B6294D348A000CA6E0 /* 74810-phone-animation-video-with-location-bar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "74810-phone-animation-video-with-location-bar.gif"; sourceTree = "<group>"; };
 		FA1DE9B7294D348A000CA6E0 /* 92014-route-maps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "92014-route-maps.gif"; sourceTree = "<group>"; };
 		FA1DE9BB294D349A000CA6E0 /* GifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLoader.swift; sourceTree = "<group>"; };
+		FA39C22A294D49CC00662C20 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FAE99961294CE8E30000FDCA /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		FAE99963294CE9110000FDCA /* OnBoardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,9 +102,9 @@
 				394499EF294C845A009819DA /* View */,
 				394499EE294C8455009819DA /* Model */,
 				394499DA294C844D009819DA /* AppDelegate.swift */,
-				394499E0294C844D009819DA /* Main.storyboard */,
 				394499DC294C844D009819DA /* SceneDelegate.swift */,
 				394499E3294C844F009819DA /* Assets.xcassets */,
+				FA39C22A294D49CC00662C20 /* Main.storyboard */,
 				394499E5294C844F009819DA /* LaunchScreen.storyboard */,
 				394499E8294C844F009819DA /* Info.plist */,
 			);
@@ -254,9 +254,9 @@
 				FA1DE9BA294D348A000CA6E0 /* 92014-route-maps.gif in Resources */,
 				394499E7294C844F009819DA /* LaunchScreen.storyboard in Resources */,
 				FA1DE9B9294D348A000CA6E0 /* 74810-phone-animation-video-with-location-bar.gif in Resources */,
+				FA39C22B294D49CC00662C20 /* Main.storyboard in Resources */,
 				394499E4294C844F009819DA /* Assets.xcassets in Resources */,
 				FA1DE9B8294D348A000CA6E0 /* 113489-walking.gif in Resources */,
-				394499E2294C844D009819DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,14 +287,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		394499E0294C844D009819DA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				394499E1294C844D009819DA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		394499E5294C844F009819DA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
